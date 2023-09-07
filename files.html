@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- main template css style -->
+    <link rel="stylesheet" href="css/mian.css">
+    <!-- new link css for framework -->
+    <link rel="stylesheet" href="css/framework.css">
+    <!-- font awesome libruary -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/mian.css">
+    <!-- render all element normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- googlr fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,
+wght@0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page d-flex">
+        <!-- start sidebar -->
+        <div class="sidebar p-20 p-relative bg-white">
+            <h3 class="p-relative mtop-0">elzero</h3>
+            <ul>
+                <li>
+                    <a class=" align-center d-flex c-black fs-14 rad-6 p-10" href="index.html">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" align-center d-flex c-black fs-14 rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" align-center d-flex c-black fs-14 rad-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" align-center d-flex c-black fs-14 rad-6 p-10" href="projects.html ">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" align-center d-flex c-black fs-14 rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" align-center d-flex c-black fs-14 rad-6 p-10" href="freinds.html">
+                        <i class="fa-regular fa-circle-user"></i>
+                        <span>Freinds</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active align-center d-flex c-black fs-14 rad-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" align-center d-flex c-black fs-14 rad-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end sidebar -->
+        <!-- start content -->
+        <div class="content w-full ">
+            <div class="head bg-white p-20 between-flex">
+                <div class="search p-relative">
+                    <input type="search" placeholder="Type A Keyword">
+                </div>
+                <div class="icone between-flex">
+                    <i class="fa-regular fa-bell "></i>
+                    <img src="imgs/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- main-title -->
+            <h1 class="common p-relative">Files</h1>
+            <!-- start files-page -->
+            <div class="files-page m-20">
+                <div class="files-source d-flex ">
+                    <div class="folders d-grid gap-20">
+                        <!-- start folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/pdf.svg" alt="">
+                                <p class="fs-15"> my-file.pdf</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Elzero</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>20/10/2020</span>
+                                    <span>5.5MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- start folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/avi.svg" alt="">
+                                <p class="fs-15"> my-file.avi</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Admin</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>16/05/2021</span>
+                                    <span>12.5MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- start folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/eps.svg" alt="">
+                                <p class="fs-15"> my-file.eps</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Uploader</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>16/7/2021</span>
+                                    <span>1.1MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/psd.svg" alt="">
+                                <p class="fs-15"> my-file.psd</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Osama</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>01/08/2019</span>
+                                    <span>7.4MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/dll.svg" alt="">
+                                <p class="fs-15"> my-file.dll</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Coder</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>16/5/2021</span>
+                                    <span>9.4MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/png.svg" alt="">
+                                <p class="fs-15"> my-file.png</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Designer</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>30/7/2022</span>
+                                    <span>5.8MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/dll.svg" alt="">
+                                <p class="fs-15"> my-file.dll</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Coder</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>16/5/2021</span>
+                                    <span>9.4MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/png.svg" alt="">
+                                <p class="fs-15"> my-file.png</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Designer</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>30/7/2022</span>
+                                    <span>5.8MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box  -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/psd.svg" alt="">
+                                <p class="fs-15"> my-file.psd</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Osama</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>01/08/2019</span>
+                                    <span>7.4MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box  -->
+                        <!-- start folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/pdf.svg" alt="">
+                                <p class="fs-15"> my-file.pdf</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Elzero</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>20/10/2020</span>
+                                    <span>5.5MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- start folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/avi.svg" alt="">
+                                <p class="fs-15"> my-file.avi</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Admin</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>16/05/2021</span>
+                                    <span>12.5MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- start folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/eps.svg" alt="">
+                                <p class="fs-15"> my-file.eps</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Uploader</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>16/7/2021</span>
+                                    <span>1.1MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/psd.svg" alt="">
+                                <p class="fs-15"> my-file.psd</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Osama</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>01/08/2019</span>
+                                    <span>7.4MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/dll.svg" alt="">
+                                <p class="fs-15"> my-file.dll</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Coder</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>16/5/2021</span>
+                                    <span>9.4MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/png.svg" alt="">
+                                <p class="fs-15"> my-file.png</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Designer</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>30/7/2022</span>
+                                    <span>5.8MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/dll.svg" alt="">
+                                <p class="fs-15"> my-file.dll</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Coder</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>16/5/2021</span>
+                                    <span>9.4MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/png.svg" alt="">
+                                <p class="fs-15"> my-file.png</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Designer</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>30/7/2022</span>
+                                    <span>5.8MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box  -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/psd.svg" alt="">
+                                <p class="fs-15"> my-file.psd</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Osama</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>01/08/2019</span>
+                                    <span>7.4MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box  -->
+                        <!-- start folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/pdf.svg" alt="">
+                                <p class="fs-15"> my-file.pdf</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Elzero</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>20/10/2020</span>
+                                    <span>5.5MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- start folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/avi.svg" alt="">
+                                <p class="fs-15"> my-file.avi</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Admin</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>16/05/2021</span>
+                                    <span>12.5MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- start folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/eps.svg" alt="">
+                                <p class="fs-15"> my-file.eps</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Uploader</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>16/7/2021</span>
+                                    <span>1.1MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/psd.svg" alt="">
+                                <p class="fs-15"> my-file.psd</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Osama</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>01/08/2019</span>
+                                    <span>7.4MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/dll.svg" alt="">
+                                <p class="fs-15"> my-file.dll</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Coder</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>16/5/2021</span>
+                                    <span>9.4MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/png.svg" alt="">
+                                <p class="fs-15"> my-file.png</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Designer</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>30/7/2022</span>
+                                    <span>5.8MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/dll.svg" alt="">
+                                <p class="fs-15"> my-file.dll</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Coder</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>16/5/2021</span>
+                                    <span>9.4MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/png.svg" alt="">
+                                <p class="fs-15"> my-file.png</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Designer</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>30/7/2022</span>
+                                    <span>5.8MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box  -->
+                        <div class="folder-box bg-white rad-10 p-relative p-20">
+                            <div class="detail pt-10 center-flex">
+                                <img src="imgs/psd.svg" alt="">
+                                <p class="fs-15"> my-file.psd</p>
+                            </div>
+                            <div class="txt">
+                                <div class="c-gray pb-10 pt-15 fs-15 bor-bt mb-10">Osama</div>
+                                <div class="between-flex c-gray fs-14 ">
+                                    <span>01/08/2019</span>
+                                    <span>7.4MB</span>
+                                </div>
+                            </div>
+                            <span class="down p-absolute">
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+                        </div>
+                        <!-- end folder-box  -->
+                    </div>
+                    <!-- start statistics -->
+                    <div class="statistics bg-white rad-10 p-20">
+                        <h3 class="mb-20">Files Statistics</h3>
+                        <!-- start stat -->
+                        <div class="stat d-flex ">
+                            <i style="  background-color: rgb(0 0 255 /0.2 );
+                            color: var(--blue-color);" class="fa-regular fa-file-pdf p-10 "></i>
+                            <div class="desc between-flex fs-13">
+                                <div class="txt">
+                                    <p class="mb-10">PDF Files</p>
+                                    <span class="c-gray ">130</span>
+                                </div>
+                                <span class="c-gray">6.5GB</span>
+                            </div>
+                        </div>
+                        <!-- end stat -->
+                        <div class="stat d-flex">
+                            <i style="  background-color: rgb(0 128 0 / 20%);
+                            color: var(--green-color);" class="fa-solid fa-images p-10"></i>
+                            <div class="desc between-flex fs-13">
+                                <div class="txt">
+                                    <p class="mb-10">Images</p>
+                                    <span class="c-gray ">115 Files</span>
+                                </div>
+                                <span class="c-gray">3.5GB</span>
+                            </div>
+                        </div>
+                        <!-- end stat -->
+                        <div class="stat  d-flex">
+                            <i  style=" background-color: rgba(128, 15, 0, 0.2);
+                            color: var(--red-color);" class="fa-regular fa-file-word"></i>
+                            <div class="desc between-flex fs-13">
+                                <div class="txt">
+                                    <p class="mb-10">Word Files</p>
+                                    <span class="c-gray ">110 Files</span>
+                                </div>
+                                <span class="c-gray">2.7GB</span>
+                            </div>
+                        </div>
+                        <!-- end stat -->
+                        <div class="stat d-flex">
+                            <i  style=" background-color: rgb(255 165 0 / 0.2);
+                            color: var(--orange-color);" class="fa-solid fa-file-csv"></i>
+                            <div class="desc between-flex fs-13">
+                                <div class="txt ">
+                                    <p class="mb-10">CSV Files</p>
+                                    <span class="c-gray ">99 Files</span>
+                                </div>
+                                <span class="c-gray">4.7GB</span>
+                            </div>
+                        </div>
+                        <!-- end stat -->
+                        <div class="upp fs-15 mb-10 ">
+                            <a class="c-white fs-15" href=""> 
+                                <i class="fa-solid fa-angles-up"></i>  <span>Upload</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end content -->
+        </div>
+</body>
